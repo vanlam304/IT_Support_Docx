@@ -5,6 +5,9 @@
 
 UMail là dịch vụ email theo tên miền giúp doanh nghiệp có thể kết nối, tương tác với khách hàng/ đối tác một cách dễ dàng, nhanh chóng và chuyên nghiệp hơn.
 Với UMail, doanh nghiệp có ngay một hệ thống quản lý tập trung email nhân viên, đồng thời tăng cường khả năng bảo mật với các cơ chế chống virus/ spam hiện đại.
+<p>
+  <img src="https://user-images.githubusercontent.com/111721629/186405817-4cea2a0b-82e3-475d-977a-395b27327031.jpg" style="width:600px;">
+  </p>
 
 **Phân Loại**
 
@@ -34,7 +37,9 @@ Với UMail, doanh nghiệp có ngay một hệ thống quản lý tập trung e
 - Tính năng chuyển hướng tự động các mail người gửi vào đúng thư mục để hộp thư của bạn trở nên ngăn nắp, chuyên nghiệp hơn.
 
 **Lý do nên đăng ký email tại Web4s Nhân Hòa**
-
+<p>
+  <img src="https://user-images.githubusercontent.com/111721629/186406056-46da137a-4fab-4f80-a925-7a1a10827a1c.jpg" style="width:600px;">
+  </p>
 - Nhân Hòa đã có 20 năm kinh nghiệm hoạt động trong lĩnh vực thiết kế website bán hàng chuẩn TMĐT, chuẩn SEO, kinh doanh tên miền, máy chủ, hosting, umail, email, chứng chỉ SSL…
 - Đội ngũ kỹ thuật luôn nỗ lực mỗi ngày để mang đến những giải pháp công nghệ tối ưu nhất cho khách hàng.
 - Sẵn sàng tư vấn, hỗ trợ khách hàng 24/24 thông qua điện thoại, email, livechat…
