@@ -8,7 +8,7 @@ Máy chủ(server) là một **máy tính** được kết nối với mạng m�
   Hay nói cho đơn giản thì máy chủ chính là một máy tính nhưng nó có những ưu điểm vượt trội hơn về ***năng lực dự trữ và xử lý dữ liệu lớn hơn máy tính thông thường rất nhiều.***
   Vì thế, nó được sử dụng cho mục đích lưu trữ và xử lý dữ liệu trong một mạng máy tính hoặc trên môi trường internet.
   Máy chủ là ***nền tảng của mọi dịch vụ internet***, bất kì một dịch vụ nào trên internet như Website, ứng dụng, trò chơi,... muốn vận hành phải có máy chủ nào đó.
-# 2, Các loại máy chủ (server)
+## 2, Các loại máy chủ (server)
 Theo ***phương pháp xây dựng hệ thống máy chủ***, chúng ta phân thành 3 loại:
 
 **- Máy chủ vật lý riêng**(delicate server): là máy chủ chạy trên phần cứng và các thiết bị hỗ trợ riêng biệt gồm : HĐD, CPU, RAM, Card mạng.
