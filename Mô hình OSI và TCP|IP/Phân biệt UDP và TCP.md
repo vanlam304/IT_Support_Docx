@@ -5,6 +5,7 @@ TCP/IP là một bộ các cổng được thiết bị sử dụng để giao t
 Giao thức User Datagram Protocol (UDP) được các ứng dụng sử dụng để vận chuyển một luồng dữ liệu nhanh hơn bằng cách bỏ qua kiểm tra lỗi. Khi cấu hình phần cứng hoặc phần mềm mạng bạn sẽ thấy sự khác biệt.
 # Những điều cơ bản về TCP và UDP
 | TCP | UDP |
+|-----|-----|
 | Đảm bảo rằng dữ liệu đến đúng như khi được gửi | Không đảm bảo dữ liệu đến |
 | Kiểm tra lỗi các luồng dữ liệu. | Không cung cấp tính năng kiểm tra lỗi. |
 | Header 20 byte cho phép 40 byte dữ liệu tùy chọn. | Header 8 byte chỉ cho phép dữ liệu bắt buộc. |
