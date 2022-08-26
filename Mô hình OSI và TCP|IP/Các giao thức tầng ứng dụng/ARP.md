@@ -11,8 +11,9 @@ Ngoài nhiệm vụ trên ARP cũng còn được sử dụng cho IP qua các c�
 # Hoạt động của ARP
 
 <p> 
-  <img="https://vsudo.net/blog/wp-content/uploads/2020/02/quy-trinh-ARP.jpg">
+  <img src="https://vsudo.net/blog/wp-content/uploads/2020/02/quy-trinh-ARP.jpg">
   </p>
+  
 Quá trình hoạt động của ARP sẽ bắt đầu khi một gói tin được gửi tới cho một máy chủ nào đó trong mạng LAN. Chương trình ARP cần tìm địa chỉ Mac khớp với địa chỉ IP của gói tin ở bảng ARP cache (bản ghi từng địa chỉ Mac và địa chỉ IP tương ứng).
 
 Nếu địa chỉ Mac có trong ARP cache thì thiết bị nguồn sẽ sử dụng địa chỉ Mac ở đó để giao tiếp. Trường hợp trong ARP cache không có địa chỉ mà nguồn muốn tìm thì ARP sẽ gửi một thông báo tới các máy trong mạng LAN để xem máy nào có địa chỉ IP khớp với địa chỉ IP đích. Khi một máy nhận ra địa chỉ IP đích khớp với IP của chính nó thì nó sẽ trả lời để ARP cập nhật vào bộ nhớ ARP cache và tiếp tục giao tiếp.
