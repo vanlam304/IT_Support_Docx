@@ -88,3 +88,12 @@ Thỉnh thoảng, HĐH sẽ kiểm tra hệ thống xem có bất kỳ mối đe
   <p>
   <img src="https://ben.com.vn/tin-tuc/wp-content/uploads/2021/10/thanh-phan-he-dieu-hanh.jpg">
   </p>
+
+# Hệ điều hành máy tính phổ biến nhất hiện nay
+Các hệ điều hành phổ biến nhất trên máy tính hiện nay có thể kể đến các HĐH sau:
+
+**HĐH Windows**: HĐH Windows hầu hết hiện nay đều được cài đặt sẵn trên máy tính. Đây là hệ điều hành được sử dụng phổ biến nhất trên máy tính cho đến thời điểm hiện tại.
+
+**HĐH macOS**: HĐH macOS hiện nay được cài sẵn trên hầu hết các dòng máy tính của Apple. Đây là HĐH có giao diện khá là đẹp và được nhiều người dùng đánh giá cao.
+
+**HĐH Linux**: Linux là một hệ điều hành mở và bạn có thể sửa bất kỳ vấn đề gì trên hệ điều hành này. Đây là hệ điều hành miễn phí và bạn sẽ không cần phải tốn bất kỳ một khoản phí nào để sỡ hữu nó. Tuy nhiên thì do là HĐH miễn phí nên là tính bảo mật sẽ không cao, nên có rất ít người sử dụng HĐH này.
