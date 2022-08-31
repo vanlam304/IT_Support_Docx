@@ -1,4 +1,4 @@
-# Các bước cài WIn
+# Các bước cài Wn
 ## 1. Tạo USB boot
 
 Bước 1: Tải phần mềm Rufus mới nhất:
@@ -96,4 +96,67 @@ Bước 3: Chọn vào ngôn ngữ tại mục Language to install (khuyến ngh
   </p>
   
   
-  Bước 9: Sau khi hoàn tất máy tính sẽ khởi động một lần nữa để yêu cầu người dùng thiết lập một só
+  Bước 9: Sau khi hoàn tất máy tính sẽ khởi động một lần nữa để yêu cầu người dùng thiết lập một số cấu hình người dùng:
+  Chọn United States----> Yes
+  <p>
+  <img src="https://cdn.tgdd.vn/Files/2019/11/14/1218882/huong-dan-cai-dat-windows-7-10-don-gian-nhat-ai-cung-lam-duoc-12.png">
+  </p>
+  
+  Chọn US --------> Yes
+  <p>
+  <img src="https://cdn.tgdd.vn/Files/2019/11/14/1218882/huong-dan-cai-dat-windows-7-10-don-gian-nhat-ai-cung-lam-duoc-13.png">
+  </p>
+  
+  Nhấn Skip
+  <p>
+  <img src="https://cdn.tgdd.vn/Files/2019/11/14/1218882/huong-dan-cai-dat-windows-7-10-don-gian-nhat-ai-cung-lam-duoc-14.png">
+  </p>
+  
+  chọn Set up for personnal use (sử dụng cá nhân)
+  <p> 
+  <img src="https://cdn.tgdd.vn/Files/2019/11/14/1218882/huong-dan-cai-dat-windows-7-10-don-gian-nhat-ai-cung-lam-duoc-15.png">
+  </p>
+  
+  Chọn Offfline Account ------> Next
+  <p>
+  <img src="https://cdn.tgdd.vn/Files/2019/11/14/1218882/huong-dan-cai-dat-windows-7-10-don-gian-nhat-ai-cung-lam-duoc-17.png">
+  </p>
+  
+  chọn vào Limited experience để bỏ qua tính năng tải, đồng bộ các ứng dụng mặc định của Microsoft
+  <p>
+  <img src = "https://cdn.tgdd.vn/Files/2019/11/14/1218882/huong-dan-cai-dat-windows-7-10-don-gian-nhat-ai-cung-lam-duoc-18.png">
+  </p>
+  
+  Dặt tên máy tính
+  <p>  
+  <img src="https://cdn.tgdd.vn/Files/2019/11/14/1218882/huong-dan-cai-dat-windows-7-10-don-gian-nhat-ai-cung-lam-duoc-21.png">
+  </p>
+  
+  Mật khẩu
+  <p>
+  <img src="https://cdn.tgdd.vn/Files/2019/11/14/1218882/huong-dan-cai-dat-windows-7-10-don-gian-nhat-ai-cung-lam-duoc-22.png">
+  </p>
+  
+  Trả lời các câu hỏi, cái này dùng để sau này khôi phục lại mật khẩu khi lỡ quên 
+  <p>
+  <img src="https://cdn.tgdd.vn/Files/2019/11/14/1218882/huong-dan-cai-dat-windows-7-10-don-gian-nhat-ai-cung-lam-duoc-23.png">
+  </p>
+  
+  chọn Yes
+  <p>
+  <img src="https://cdn.tgdd.vn/Files/2019/11/14/1218882/huong-dan-cai-dat-windows-7-10-don-gian-nhat-ai-cung-lam-duoc-24.png">
+  </p>
+  
+  Chọn Accept
+ <p>
+  <img src="https://cdn.tgdd.vn/Files/2019/11/14/1218882/huong-dan-cai-dat-windows-7-10-don-gian-nhat-ai-cung-lam-duoc-25.png">
+  </p>
+  
+  <p>
+  <img src="https://congluan-cdn.congluan.vn/files/huyhoang/2020/07/03/w-indows-10-2-0934.jpg">
+  </p>
+  ### Hoàn Thành!!!!!!!!!!!
+  
+  
+  
+  
