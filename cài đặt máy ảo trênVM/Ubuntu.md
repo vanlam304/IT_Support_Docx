@@ -39,5 +39,14 @@ Bước 6: Đặt tên gọi nhớ cho máy ảo và nơi lưu trữ dữ liệu
  
  ![image](https://user-images.githubusercontent.com/111721629/187626293-3145c8b7-b16b-4f2f-87da-77154f094a42.png)
 
+Bước 9: setup cá nhân và để nó tự chạy
 
+![image](https://user-images.githubusercontent.com/111721629/187626850-f8b0c2f0-e5b7-48a2-b337-ac5919d569ea.png)
+
+![image](https://user-images.githubusercontent.com/111721629/187628071-1eee99b4-88b9-49d8-a337-21f05aa741e7.png)
+
+
+![image](https://user-images.githubusercontent.com/111721629/187634998-05edaee6-062a-4b6e-a82f-682a008320c0.png)
+
+### Hoàn thành!!!!!!!!
 
