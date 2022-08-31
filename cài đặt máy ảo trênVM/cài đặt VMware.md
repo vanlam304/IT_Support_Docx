@@ -34,7 +34,7 @@ Bước 8: Install
 
 ![image](https://user-images.githubusercontent.com/111721629/187615358-2f8756b3-24f6-47bb-ba70-f17214125329.png)
 
-Bước 9: Finish
+Bước 9: Finish hoặc có thể nhất License để nhập Key active
 
 ![image](https://user-images.githubusercontent.com/111721629/187615427-3fb89134-4c90-44b4-b209-e85b9707ddc6.png)
 
@@ -42,5 +42,8 @@ Bước 10: Bấm Yes để khởi động lại
 
 ![image](https://user-images.githubusercontent.com/111721629/187615554-65c90d13-fce8-4abf-b4d0-57bf888e779f.png)
 
+### Và đây là giao diện VMware khi đã cài đặt xong!
+
+![image](https://user-images.githubusercontent.com/111721629/187618816-5555e501-e2a6-4353-94ab-5fd19f5f7619.png)
 
 
