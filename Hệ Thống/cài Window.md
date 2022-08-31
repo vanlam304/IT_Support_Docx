@@ -1,15 +1,15 @@
-# Các bước cài Wn
+# Các bước cài Win
 ## 1. Tạo USB boot
 
-Bước 1: Tải phần mềm Rufus mới nhất:
+**Bước 1**: Tải phần mềm Rufus mới nhất:
 qua đường link : *https://rufus.ie/vi/*
 
-Bước 2: Khởi động Rufus vừa tải về, giao diện chính của phần mềm như sau. Lúc này hãy kết nối USB với máy tính vừa cài đặt Rufus.
+**Bước 2**: Khởi động Rufus vừa tải về, giao diện chính của phần mềm như sau. Lúc này hãy kết nối USB với máy tính vừa cài đặt Rufus.
 <p>
   <img src="https://cdn.tgdd.vn/Files/2019/11/14/1218657/huong-dan-tao-usb-boot-de-cai-win-tren-ca-2-chuan-uefi-va-legacy-4.JPG">
   </p>
   
-  Bước 3: Trên giao diện chính của phần mềm tạo USB Boot WIN Rufus, thao tác theo hướng dẫn sau:
+  **Bước 3**: Trên giao diện chính của phần mềm tạo USB Boot WIN Rufus, thao tác theo hướng dẫn sau:
 
 (1): Chọn vào tên USB.
 
@@ -23,7 +23,7 @@ Bước 2: Khởi động Rufus vừa tải về, giao diện chính của phầ
 
 (6): File System: Chọn NTFS (khuyến nghị).
 
-Bước 4: Nhấn START để bắt đầu quá trình tạo USB Boot để cài WIN 7, 10 cho máy tính, laptop.
+**Bước 4**: Nhấn START để bắt đầu quá trình tạo USB Boot để cài WIN 7, 10 cho máy tính, laptop.
 
 <p> 
   <img src="https://cdn.tgdd.vn/Files/2019/11/14/1218657/huong-dan-tao-usb-boot-de-cai-win-tren-ca-2-chuan-uefi-va-legacy-6.JPG">
@@ -31,9 +31,9 @@ Bước 4: Nhấn START để bắt đầu quá trình tạo USB Boot để cài
   
   Lúc này Rufus hỏi có muốn format (xóa dữ liệu) USB hay không? Nhấn OK để bắt đầu quá trình xóa và tạo USB Boot.
   
-  Bước 5: Nếu quá trình tạo USB Boot hoàn tất, bạn sẽ nhận được thông báo READ màu xanh.
+  **Bước 5**: Nếu quá trình tạo USB Boot hoàn tất, bạn sẽ nhận được thông báo READ màu xanh.
   
-  Bước 6: Sau khi tạo USB Boot Win 7 hoặc Win 10 thành công, có thể sử dụng chúng để tự cài đặt hệ điều hành (cài WIN) rồi !
+  **Bước 6**: Sau khi tạo USB Boot Win 7 hoặc Win 10 thành công, có thể sử dụng chúng để tự cài đặt hệ điều hành (cài WIN) rồi !
   
   ## 2. Cài WIn 10
   
@@ -49,31 +49,31 @@ Card đồ họa: Microsoft DirectX 9 với trình điều khiển WDDM.
 
 ### Các bước chi tiét
 
-Bước 1: Kết nối USB Boot vừa chuẩn bị ở trên vào máy tính, laptop cần cài Win 10.
+**Bước 1**: Kết nối USB Boot vừa chuẩn bị ở trên vào máy tính, laptop cần cài Win 10.
 
-Bước 2: Nhấn nút nguồn để khởi động máy, khi màn hình máy tính vừa bật bạn hãy nhấn liên tục phím tắt để truy cập vào menu BOOT. Mỗi dòng laptop khác nhau sẽ có phím tắt truy cập BOOT khác nhau, bạn có thể tìm kiếm trên mạng bằng từ khóa "Phím tắt BOOT + tên hãng laptop".
+**Bước 2**: Nhấn nút nguồn để khởi động máy, khi màn hình máy tính vừa bật bạn hãy nhấn liên tục phím tắt để truy cập vào menu BOOT. Mỗi dòng laptop khác nhau sẽ có phím tắt truy cập BOOT khác nhau, bạn có thể tìm kiếm trên mạng bằng từ khóa "Phím tắt BOOT + tên hãng laptop".
 
-Bước 3: Chọn vào ngôn ngữ tại mục Language to install (khuyến nghị giữ nguyên English United States) > Chọn định dạng thời gian tại mục Time and curency format  (khuyến nghị giữ nguyên English United States) > Chọn định dạng bạn phím tại mục Keyboard or input method (khuyến nghị giữ nguyên US) > Nhấn Next để tiếp tục.
+**Bước 3**: Chọn vào ngôn ngữ tại mục Language to install (khuyến nghị giữ nguyên English United States) > Chọn định dạng thời gian tại mục Time and curency format  (khuyến nghị giữ nguyên English United States) > Chọn định dạng bạn phím tại mục Keyboard or input method (khuyến nghị giữ nguyên US) > Nhấn Next để tiếp tục.
 <p>
   <img srg="https://cdn.tgdd.vn/Files/2019/11/14/1218882/huong-dan-cai-dat-windows-7-10-don-gian-nhat-ai-cung-lam-duoc.png">
   </p>
   
-  Bước : Nhập vào đoạn key cài đặt Windows  (key này có thể kiếm trên mạng hoặc bảo qua không cần active) > Nhấn Next để tiếp tục.
+  **Bước4** : Nhập vào đoạn key cài đặt Windows  (key này có thể kiếm trên mạng hoặc bảo qua không cần active) > Nhấn Next để tiếp tục.
   <p> 
   <img src="https://cdn.tgdd.vn/Files/2019/11/14/1218882/huong-dan-cai-dat-windows-7-10-don-gian-nhat-ai-cung-lam-duoc-3.png">
   </p>
   
-  Bước 5: Đồng ý các điều khoản và nhấn Next để chuyển sang bước kế tiếp
+  **Bước 5**: Đồng ý các điều khoản và nhấn Next để chuyển sang bước kế tiếp
   <p>
   <img src="https://cdn.tgdd.vn/Files/2019/11/14/1218882/huong-dan-cai-dat-windows-7-10-don-gian-nhat-ai-cung-lam-duoc-4.png">
   </p>
   
-  Bước 6: Nhấn chọn custom để cài đặt mới hoàn toàn win 10
+  **Bước 6**: Nhấn chọn custom để cài đặt mới hoàn toàn win 10
   <p>
   <img src="https://cdn.tgdd.vn/Files/2019/11/14/1218882/huong-dan-cai-dat-windows-7-10-don-gian-nhat-ai-cung-lam-duoc-5.png">
   </p>
   
-  Bước 7: Chọn ổ đĩa để cài Window giao diện và format
+  **Bước 7**: Chọn ổ đĩa để cài Window giao diện và format
   <p>
   <img src="https://cdn.tgdd.vn/Files/2019/11/14/1218882/huong-dan-cai-dat-windows-7-10-don-gian-nhat-ai-cung-lam-duoc-6.png">
   </p>
@@ -90,64 +90,64 @@ Bước 3: Chọn vào ngôn ngữ tại mục Language to install (khuyến ngh
   </p>
   
   
-  Bước 8: Quá trình cài đặt Win 10 sẽ diễn ra hoàn toàn tự động
+  **Bước 8**: Quá trình cài đặt Win 10 sẽ diễn ra hoàn toàn tự động
   <p>
   <img src="https://cdn.tgdd.vn/Files/2019/11/14/1218882/huong-dan-cai-dat-windows-7-10-don-gian-nhat-ai-cung-lam-duoc-11.png">
   </p>
   
   
-  Bước 9: Sau khi hoàn tất máy tính sẽ khởi động một lần nữa để yêu cầu người dùng thiết lập một số cấu hình người dùng:
-  Chọn United States----> Yes
+  **Bước 9**: Sau khi hoàn tất máy tính sẽ khởi động một lần nữa để yêu cầu người dùng thiết lập một số cấu hình người dùng:
+  **Chọn United States----> Yes**
   <p>
   <img src="https://cdn.tgdd.vn/Files/2019/11/14/1218882/huong-dan-cai-dat-windows-7-10-don-gian-nhat-ai-cung-lam-duoc-12.png">
   </p>
   
-  Chọn US --------> Yes
+ **Chọn US --------> Yes**
   <p>
   <img src="https://cdn.tgdd.vn/Files/2019/11/14/1218882/huong-dan-cai-dat-windows-7-10-don-gian-nhat-ai-cung-lam-duoc-13.png">
   </p>
   
-  Nhấn Skip
+  **Nhấn Skip**
   <p>
   <img src="https://cdn.tgdd.vn/Files/2019/11/14/1218882/huong-dan-cai-dat-windows-7-10-don-gian-nhat-ai-cung-lam-duoc-14.png">
   </p>
   
-  chọn Set up for personnal use (sử dụng cá nhân)
+  **chọn Set up for personnal use (sử dụng cá nhân)**
   <p> 
   <img src="https://cdn.tgdd.vn/Files/2019/11/14/1218882/huong-dan-cai-dat-windows-7-10-don-gian-nhat-ai-cung-lam-duoc-15.png">
   </p>
   
-  Chọn Offfline Account ------> Next
+  **Chọn Offfline Account ------> Next**
   <p>
   <img src="https://cdn.tgdd.vn/Files/2019/11/14/1218882/huong-dan-cai-dat-windows-7-10-don-gian-nhat-ai-cung-lam-duoc-17.png">
   </p>
   
-  chọn vào Limited experience để bỏ qua tính năng tải, đồng bộ các ứng dụng mặc định của Microsoft
+  **chọn vào Limited experience để bỏ qua tính năng tải, đồng bộ các ứng dụng mặc định của Microsoft**
   <p>
   <img src = "https://cdn.tgdd.vn/Files/2019/11/14/1218882/huong-dan-cai-dat-windows-7-10-don-gian-nhat-ai-cung-lam-duoc-18.png">
   </p>
   
-  Dặt tên máy tính
+ **Đặt tên máy tính**
   <p>  
   <img src="https://cdn.tgdd.vn/Files/2019/11/14/1218882/huong-dan-cai-dat-windows-7-10-don-gian-nhat-ai-cung-lam-duoc-21.png">
   </p>
   
-  Mật khẩu
+  **Mật khẩu**
   <p>
   <img src="https://cdn.tgdd.vn/Files/2019/11/14/1218882/huong-dan-cai-dat-windows-7-10-don-gian-nhat-ai-cung-lam-duoc-22.png">
   </p>
   
-  Trả lời các câu hỏi, cái này dùng để sau này khôi phục lại mật khẩu khi lỡ quên 
+  **Trả lời các câu hỏi, cái này dùng để sau này khôi phục lại mật khẩu khi lỡ quên**
   <p>
   <img src="https://cdn.tgdd.vn/Files/2019/11/14/1218882/huong-dan-cai-dat-windows-7-10-don-gian-nhat-ai-cung-lam-duoc-23.png">
   </p>
   
-  chọn Yes
+  **chọn Yes**
   <p>
   <img src="https://cdn.tgdd.vn/Files/2019/11/14/1218882/huong-dan-cai-dat-windows-7-10-don-gian-nhat-ai-cung-lam-duoc-24.png">
   </p>
   
-  Chọn Accept
+  **Chọn Accept**
  <p>
   <img src="https://cdn.tgdd.vn/Files/2019/11/14/1218882/huong-dan-cai-dat-windows-7-10-don-gian-nhat-ai-cung-lam-duoc-25.png">
   </p>
