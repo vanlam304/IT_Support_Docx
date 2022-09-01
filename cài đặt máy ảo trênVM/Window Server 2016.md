@@ -45,3 +45,7 @@ Cấu hình:
 Bước 8: Chạy xong thì restart để máy ảo chạy ổn định nhất
 
 ![image](https://user-images.githubusercontent.com/111721629/187824168-9ca2b8ed-05f8-4c9c-b0ca-4423af50513d.png)
+
+Và đây là mằn hình bắt đầu khi hoàn thành cài đặt:
+
+![image](https://user-images.githubusercontent.com/111721629/187824349-622821b3-143c-4a48-bf4a-7f9c94be8871.png)
