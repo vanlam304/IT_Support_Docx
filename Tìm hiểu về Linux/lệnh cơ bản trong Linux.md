@@ -198,7 +198,7 @@ Lệnh này có chức năng tương tự như lệnh head, nhưng thay vì hi�
 
 Ví dụ: tail -n  3 demo.txt
 
-![image](https://user-images.githubusercontent.com/111716161/187587304-9fe87235-5a98-4a09-b96f-0273dbca9632.png)
+![image](https://user-images.githubusercontent.com/111721629/188410631-e7e3d449-8f96-453b-b94d-252d35f2a502.png)
 
 ### 19. diff
 
@@ -214,7 +214,6 @@ Lệnh tar là lệnh được sử dụng nhiều nhất để lưu trữ nhi�
 
 Lệnh này khá phức tạp với một danh sách dài các chức năng như thêm tệp mới vào kho lưu trữ hiện có, liệt kê nội dung của kho lưu trữ, trích xuất nội dung từ kho lưu trữ và nhiều chức năng khác.
 
-Bạn có thể tìm hiểu thêm tại đây.
 
 ### 21. chmod
 
@@ -259,8 +258,7 @@ Sử dụng lệnh ping để kiểm tra trạng thái kết nối của bạn v
 
 Ví dụ: Chỉ cần nhập ping google.com, lệnh sẽ kiểm tra xem bạn có thể kết nối với Google hay không và cũng là cách đo thời gian phản hồi.
 
-![image](https://user-images.githubusercontent.com/111716161/187814193-08d6f97c-2a70-402a-afbb-4e57121cf36f.png)
-
+![image](https://user-images.githubusercontent.com/111721629/188411260-3356c4d2-d49b-44b9-bd1e-481da9da5d52.png)
 ### 26. wget
 
 Lệnh Linux cực kỳ hữu ích - bạn thậm chí có thể tải xuống các tệp từ internet với sự trợ giúp của lệnh wget. Để làm như vậy, chỉ cần gõ wget theo sau là liên kết tải xuống.
@@ -269,8 +267,7 @@ Lệnh Linux cực kỳ hữu ích - bạn thậm chí có thể tải xuống c
 
 Lệnh uname, viết tắt của Unix Name, sẽ in thông tin chi tiết về hệ thống Linux của bạn như tên máy, hệ điều hành, nhân, v.v.
 
-![image](https://user-images.githubusercontent.com/111716161/187814027-92df0a44-29bd-4b7b-905c-66152e376981.png)
-
+![image](https://user-images.githubusercontent.com/111721629/188411807-b5ba9ad9-c685-4115-b630-70f6521076c3.png)
 ### 28. top
 
 Là một terminal tương đương với Task Manager trong Windows, lệnh top cùng sẽ hiển thị danh sách các tiến trình đang chạy và lượng CPU mà mỗi tiến trình sử dụng.
@@ -291,15 +288,15 @@ Bạn nhầm lẫn về chức năng của các lệnh Linux nhất định?
 
 Ví dụ, nhập man tail sẽ hiển thị hướng dẫn thủ công của lệnh tail.
 
-![image](https://user-images.githubusercontent.com/111716161/187813950-a18e70bf-f70f-4d9e-b22e-2a80ac358f88.png)
+![image](https://user-images.githubusercontent.com/111721629/188412413-4ae9e94d-9e72-4562-a32f-90772ba59557.png)
 
 ### 31. echo
 
 Lệnh echo được sử dụng để chuyển một số dữ liệu vào một tệp chỉ định.
 
-Ví dụ: Nếu bạn muốn thêm văn bản, "Hello world" vào một tệp có tên là bai2.txt, bạn sẽ nhập echo "Hello world" >> bai2.txt
+Ví dụ: Nếu bạn muốn thêm văn bản, "Nhân Hòa" vào một tệp có tên là demo.txt, bạn sẽ nhập echo "Nhân Hòa" >> demo.txt
 
-![image](https://user-images.githubusercontent.com/111716161/187814582-d9c84a7a-a3ff-43c6-a7a4-abc54fad67ad.png)
+![image](https://user-images.githubusercontent.com/111721629/188415440-f517bbc1-65ec-4cec-9889-6f4f4b4b7db2.png)
 
 ### 32. zip và unzip
 
@@ -309,7 +306,7 @@ Sử dụng lệnh zip để nén các tệp của bạn thành một file zip v
 
 Nếu bạn muốn biết tên host / network của mình, chỉ cần nhập lệnh hostname. Thêm -I vào cuối sẽ hiển thị địa chỉ IP của mạng của bạn.
 
-![image](https://user-images.githubusercontent.com/111716161/187814646-1f8fd635-6edf-4a85-9e88-6b188b11bcaa.png)
+![image](https://user-images.githubusercontent.com/111721629/188416371-24fc2a41-b37d-4ea0-9eaa-c807817a4a44.png)
 
 ### 34. useradd và userdel
 
@@ -337,28 +334,30 @@ tar -xzf tar-file-name.tar.gz
 
 ls -lS
 
-![image](https://user-images.githubusercontent.com/111716161/187815683-5921ac41-b0cc-4579-ae74-0416e1fd33fc.png)
+![image](https://user-images.githubusercontent.com/111721629/188417512-588ee858-cdfb-4421-b326-f3ef1efae98c.png)
 
 ls -lSr
 
-![image](https://user-images.githubusercontent.com/111716161/187815725-26c676ca-e599-498c-8284-a5c456a28758.png)
+![image](https://user-images.githubusercontent.com/111721629/188417611-eb9ee787-bb78-47c1-9161-69416bb80565.png)
 
 ### 38. Lệnh liệt kê kích thước các thư mục
 
 du -sh /*
 
+![image](https://user-images.githubusercontent.com/111721629/188418648-eb1ec201-9792-4d53-8db2-468c4af458d0.png)
+
+
 ### 39. Lệnh xem ổ đĩa còn trống bao nhiêu
 
 df -h
 
-![image](https://user-images.githubusercontent.com/111716161/187815983-ae4b9f98-1b3e-49c8-a598-87873fe3667d.png)
-
+![image](https://user-images.githubusercontent.com/111721629/188419104-0a06e60e-fd0b-4a16-b35a-2bdc4aa8f6cc.png)
 
 ### 40. Lệnh đếm tất cả các tệp và thư mục trong một thư mục
 
 ls | wc -l
 
-![image](https://user-images.githubusercontent.com/111716161/187816012-557e2426-5eb6-4b72-95e4-249e6b6d3b06.png)
+![image](https://user-images.githubusercontent.com/111721629/188419619-8fc8458d-87f7-4063-a92c-277b795eeda6.png)
 
 
 ### 41. Lệnh xóa toàn bộ thư mục với tất cả nội dung của nó
@@ -373,6 +372,6 @@ Ví dụ:
 
 ln -s /usr/local/apache/logs ./logs
 
-![image](https://user-images.githubusercontent.com/111716161/187816132-a30986a0-d743-4197-a5f7-c9b5b8dd1313.png)
+![image](https://user-images.githubusercontent.com/111721629/188421864-d482b319-d310-44bc-b20e-5df6438ff342.png)
 
 
