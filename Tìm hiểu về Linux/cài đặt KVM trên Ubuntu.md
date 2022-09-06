@@ -11,6 +11,9 @@ Lưu ý để cài được KVM thì cần phải được CPU hỗ trợ. Để
 
 **egrep -c "svm|vmx" /proc/cpuinfo**
 
+![image](https://user-images.githubusercontent.com/111721629/188540067-448b1c25-693a-4d48-b6c1-716728f0a933.png)
+
+
 Nếu kết quả trả về là khác **0** thì CPU có hỗ trợ.
 
 ![image](https://user-images.githubusercontent.com/111721629/188532814-ceae26b5-a4f2-4b74-9fca-788463292891.png)
