@@ -144,38 +144,38 @@ Screenshot_113
 
 Virtual Host là file cấu hình trong Apache để cho phép nhiều domain cùng chạy trên một máy chủ. Có một khái niệm khác được đề cập tới trong Nginx cũng có chức năng tương tự như Virtual Host được gọi là Server Block.
 
-Tất cả các file vhost sẽ nằm trong thư mục /etc/httpd/conf.d/. Để tiện quản lý mỗi website nên có một vhost riêng, ví dụ: hostvn.net.conf
+Tất cả các file vhost sẽ nằm trong thư mục /etc/httpd/conf.d/. Để tiện quản lý mỗi website nên có một vhost riêng, ví dụ: vanlcomcom.conf
 
-Trong ví dụ này sẽ tạo website vanlam.net với vhost tương ứng là /etc/httpd/conf.d/vanlam.net.conf
+Trong ví dụ này sẽ tạo website vanlam.com với vhost tương ứng là /etc/httpd/conf.d/vanlam.com.conf
 
 ***nano /etc/httpd/c.net.conf***
 
 Dán nội dung sau vào
 ```
 <VirtualHost *:80>
-        ServerName www.vanlam.net
-        ServerAlias vanlam.net
-        DocumentRoot /home/vanlam.net/public_html
-        ErrorLog /home/vanlam.net/logs/error_log
-        CustomLog /home/vanlam.net/logs/access_log combined
+        ServerName www.vanlam.com
+        ServerAlias vanlam.com
+        DocumentRoot /home/vanlam.com/public_html
+        ErrorLog /home/vanlam.com/logs/error_log
+        CustomLog /home/vanlam.com/logs/access_log combined
 </VirtualHost
 
 ```
 Tiếp theo các bạn cần tạo thư mục chứa mã nguồn website và thư mục chứa file log bằng các lệnh sau
 ```
-mkdir -p /home/vanlam.net/public_html
+mkdir -p /home/vanlam.com/public_html
 
-mkdir -p /home/vanlam.net/logs
+mkdir -p /home/vanlam.com/logs
 
-chown -R apache:apache /home/vanlam.net
+chown -R apache:apache /home/vanlam.com
 ```
 Reload lại Apache để cập nhật cấu hình
 ```
 systemctl reload httpd
 ```
-Sau khi cấu hình hoàn tất các bạn trỏ tên miền về vps sau đó tạo file */home/vanlam.net/public_html/index.html*
+Sau khi cấu hình hoàn tất các bạn trỏ tên miền về vps sau đó tạo file */home/vanlam.com/public_html/index.html*
 
-***nano /home/vanlam.net/public_html/index.html***
+***nano /home/vanlam./public_html/index.html***
 
 Dán nội dung sau vào
 ```
