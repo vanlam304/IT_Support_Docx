@@ -219,7 +219,7 @@ Dán nội dung sau vào
 	<title>Cài Apache lên CentOS 7</title>
 </head>
 <body>
-	<p><center><?= "Văn Lâm vjppro" ?></center></p>
+	<p><center>Noi the thi chiu roi, biet sao giờ </center></p>
 </body>
 </html>
 ```
@@ -227,3 +227,4 @@ Dán nội dung sau vào
 
 ## Cuối cùng test thử với vanlam.net
 
+![image](https://user-images.githubusercontent.com/111721629/189061332-0c2afbfe-6d3c-43ac-b623-47fab711ab2d.png)
