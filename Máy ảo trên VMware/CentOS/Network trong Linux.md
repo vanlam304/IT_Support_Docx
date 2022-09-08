@@ -7,7 +7,7 @@
 - `ifconfig <interface> <address> netmask <address>` - Gán địa chỉ IP và Gateway cho một giao diện. Tuy nhiên, các cấu hình này sẽ được thiết lập lại sau khi hệ thống khởi động lại.
 - `ifup <interface> hay ifdown <interface>` - Để bật hay tắt một interface.
 
-![image](https://user-images.githubusercontent.com/111716161/188848360-36227ced-48bc-44fa-abb0-94a32eb53f0a.png)
+![image](https://user-images.githubusercontent.com/111721629/189088966-c892aa73-a31f-4ea6-8cc2-19f5eb17d340.png)
 
 ## 2. ip
 
@@ -23,14 +23,15 @@
 - `hostname --all-ip-addresses` - Hiển thị tất cả các địa chỉ IP
 - `sudo hostname <new hostname>` - Thay đổi hostname. Tuy nhiên thay đổi bằng hostname chỉ tạm thời. Sau khi reboot, hostname sẽ bị đưa trở về như cũ.
   
-![image](https://user-images.githubusercontent.com/111716161/188849988-6fe2f46d-cbcb-4aad-ab01-e00320de6325.png)
+![image](https://user-images.githubusercontent.com/111721629/189099342-ebd16571-b5ec-4e7d-8f10-fe37f99bd25f.png)
 
 ## 4. ping
 
 - `ping <destination>` - Lệnh ping gửi gói tin echo ICMP để kiểm tra kết nối mạng, destination có thể là tên miền hoặc địa chỉ ip trực tiếp
 - `ping -c <number> <destination>` - Bạn có thể giới hạn số lượng gói tin bằng cách thêm " -c " vào lệnh ping.
   
-  ![image](https://user-images.githubusercontent.com/111716161/188851488-abcee0de-dff3-48e8-a402-ce44399f7bc4.png)
+  ![image](https://user-images.githubusercontent.com/111721629/189099522-c97f6746-1049-4bb0-b2b2-ad3f91c63a2f.png)
+  
 
 ## 5. telnet
 
