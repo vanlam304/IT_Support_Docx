@@ -137,7 +137,6 @@ Thêm phía trên dòng IncludeOptional conf.d/*.conf rules sau:
                 Require method GET POST OPTIONS
 	</Directory>
 </VirtualHost>
-Screenshot_113
 ```
 
 ### Tạo virtual host (vhost) cho website
