@@ -1,4 +1,8 @@
 #  Cài đặt Apache
+ 
+ ### Trước tiên tắt Selinux
+ ` sed -i 's/SELINUX=enforcing/SELINUX=disabled/g' /etc/selinux/config && setenforce 0 `
+ 
 B1: Cài đặt repo Epel :
 ```
 yum install -y epel-release
@@ -20,6 +24,7 @@ yum install -y httpd
 B3: Cấu hình Firewalld Cho phép dịch vụ httpd  :
 ```
 firewall-cmd --zone=public --permanent --add-service=http
+firewall-cmd --permanent --zone=public --add-service=https
 firewall-cmd --reload
 ```
 ![image](https://user-images.githubusercontent.com/111721629/188776584-18ee377f-b3a5-4fbe-86f0-83f815a862d0.png)
@@ -104,7 +109,7 @@ Mặc định thư mục chứa code sẽ nằm trong /var/www/html, với chứ
 
 **nano /etc/httpd/conf.d/userdir.conf**
 
-Tại đây các bạn cần sửa các rules sau
+Tại đây các bạn cần sửa các rules sau(chú ý dấu #)
 
 UserDir disabled
 
@@ -116,9 +121,27 @@ Sửa lại thành như sau
 
 UserDir public_html
 
-và sửa khúc cuối thành như này
+và sửa khúc cuối 
 
-![image](https://user-images.githubusercontent.com/111721629/188820952-67ed4909-3a9b-43e2-8c20-73d24e48bece.png)
+```
+<Directory "/home/*/public_html">
+    AllowOverride FileInfo AuthConfig Limit Indexes
+    Options MultiViews Indexes SymLinksIfOwnerMatch IncludesNoExec
+    Require method GET POST OPTIONS
+</Directory>
+```
+
+thành như này
+```
+<Directory "/home/*/public_html">
+    AllowOverride All
+    Options None
+    Require method GET POST OPTIONS
+</Directory>
+```
+
+
+
 
 ### Chặn truy cập IP VPS tự động redirect về website trên VPS
 
@@ -138,26 +161,31 @@ Thêm phía trên dòng IncludeOptional conf.d/*.conf rules sau:
 	</Directory>
 </VirtualHost>
 ```
-
+Thêm 2 rules sau phía dưới dòng Listen 80
+```
+ServerTokens Prod
+KeepAlive On
+ServerSignature Off
+``` 
 ### Tạo virtual host (vhost) cho website
 
 Virtual Host là file cấu hình trong Apache để cho phép nhiều domain cùng chạy trên một máy chủ. Có một khái niệm khác được đề cập tới trong Nginx cũng có chức năng tương tự như Virtual Host được gọi là Server Block.
 
 Tất cả các file vhost sẽ nằm trong thư mục /etc/httpd/conf.d/. Để tiện quản lý mỗi website nên có một vhost riêng, ví dụ: vanlam.net.conf
 
-Trong ví dụ này sẽ tạo website vanlam.com với vhost tương ứng là /etc/httpd/conf.d/vanlam.net.conf
+Trong ví dụ này sẽ tạo website vanlam.net với vhost tương ứng là /etc/httpd/conf.d/vanlam.net.conf
 
 ***nano /etc/httpd/conf.d/vanlam.net.conf***
 
 Dán nội dung sau vào
 ```
 <VirtualHost *:80>
-        ServerName www.vanlam.net
-        ServerAlias vanlam.net
+        ServerName vanlam.net
+        ServerAlias www.vanlam.net
         DocumentRoot /home/vanlam.net/public_html
-        ErrorLog /home/vanlam.net/logs/error_log
-        CustomLog /home/vanlgs/access_log combined
-</VirtualHost
+        ErrorLog /home/vanlam.net/logs/error.log
+        CustomLog /home/vanlam.net/access.log combined
+</VirtualHost>
 
 ```
 Tiếp theo các bạn cần tạo thư mục chứa mã nguồn website và thư mục chứa file log bằng các lệnh sau
@@ -173,7 +201,12 @@ Reload lại Apache để cập nhật cấu hình
 ```
 systemctl reload httpd
 ```
-Sau khi cấu hình hoàn tất các bạn trỏ tên miền về vps sau đó tạo file */home/vanlam.net/public_html/index.html*
+
+#### Sau khi cấu hình hoàn tất các bạn trỏ tên miền về vps 
+`
+nano /etc/hosts
+`
+#### Sau đó tạo file */home/vanlam.net/public_html/index.html*
 
 ***nano /home/vanlam.net/public_html/index.html***
 
