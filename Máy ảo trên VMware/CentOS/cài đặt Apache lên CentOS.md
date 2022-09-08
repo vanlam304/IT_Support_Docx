@@ -167,7 +167,8 @@ mkdir -p /home/vanlam.com.vn/public_html
 
 mkdir -p /home/vanlam.com.vn/logs
 
-chown -R apache:apache /home/vanlam.com.vnvn
+chown -R apache:apache /home/vanlam.com.vn
+
 ```
 Reload lại Apache để cập nhật cấu hình
 ```
