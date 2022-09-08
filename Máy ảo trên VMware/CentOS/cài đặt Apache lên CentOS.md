@@ -143,39 +143,39 @@ Thêm phía trên dòng IncludeOptional conf.d/*.conf rules sau:
 
 Virtual Host là file cấu hình trong Apache để cho phép nhiều domain cùng chạy trên một máy chủ. Có một khái niệm khác được đề cập tới trong Nginx cũng có chức năng tương tự như Virtual Host được gọi là Server Block.
 
-Tất cả các file vhost sẽ nằm trong thư mục /etc/httpd/conf.d/. Để tiện quản lý mỗi website nên có một vhost riêng, ví dụ: vanlam.com.vn.conf
+Tất cả các file vhost sẽ nằm trong thư mục /etc/httpd/conf.d/. Để tiện quản lý mỗi website nên có một vhost riêng, ví dụ: vanlam.net.conf
 
-Trong ví dụ này sẽ tạo website vanlam.com với vhost tương ứng là /etc/httpd/conf.d/vanlam.com.vn.conf
+Trong ví dụ này sẽ tạo website vanlam.com với vhost tương ứng là /etc/httpd/conf.d/vanlam.net.conf
 
-***nano /etc/httpd/conf.d/vanlam.com.vn.conf***
+***nano /etc/httpd/conf.d/vanlam.net.conf***
 
 Dán nội dung sau vào
 ```
 <VirtualHost *:80>
-        ServerName www.vanlam.com.vn
-        ServerAlias vanlam.com.vn
-        DocumentRoot /home/vanlam.com.vn/public_html
-        ErrorLog /home/vanlam.com.vn/logs/error_log
-        CustomLog /home/vanlam.com.vn/logs/access_log combined
+        ServerName www.vanlam.net
+        ServerAlias vanlam.net
+        DocumentRoot /home/vanlam.net/public_html
+        ErrorLog /home/vanlam.net/logs/error_log
+        CustomLog /home/vanlgs/access_log combined
 </VirtualHost
 
 ```
 Tiếp theo các bạn cần tạo thư mục chứa mã nguồn website và thư mục chứa file log bằng các lệnh sau
 ```
-mkdir -p /home/vanlam.com.vn/public_html
+mkdir -p /home/vanlam.net/public_html
 
-mkdir -p /home/vanlam.com.vn/logs
+mkdir -p /home/vanlam.net/logs
 
-chown -R apache:apache /home/vanlam.com.vn
+chown -R apache:apache /home/vanlam.net
 
 ```
 Reload lại Apache để cập nhật cấu hình
 ```
 systemctl reload httpd
 ```
-Sau khi cấu hình hoàn tất các bạn trỏ tên miền về vps sau đó tạo file */home/vanlam.com.vn/public_html/index.html*
+Sau khi cấu hình hoàn tất các bạn trỏ tên miền về vps sau đó tạo file */home/vanlam.net/public_html/index.html*
 
-***nano /home/vanlam.com.vn/public_html/index.html***
+***nano /home/vanlam.net/public_html/index.html***
 
 Dán nội dung sau vào
 ```
@@ -192,5 +192,5 @@ Dán nội dung sau vào
 ```
 
 
-## Cuối cùng test thử với vanlam.com.vn
+## Cuối cùng test thử với vanlam.net
 
