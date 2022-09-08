@@ -55,7 +55,7 @@ vi index.html
 
 ![image](https://user-images.githubusercontent.com/111721629/189013621-12f5d2a1-ac7d-4a8f-affd-aee03cc6324c.png)
 
-### 5. Truy cập "vanlam."
+### 5. Truy cập "vanlam.net"
 ![image](https://user-images.githubusercontent.com/111721629/189013683-d72722f1-7aa3-4612-98c9-87d185adbc2f.png)
 
 
