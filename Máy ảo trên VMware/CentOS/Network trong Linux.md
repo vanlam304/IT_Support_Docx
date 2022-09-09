@@ -79,20 +79,20 @@ Mặc định curl chưa có sẵn trong Linux, để cài đặt curl từ Ubun
 
 `yum install curl`
 
-![image](https://user-images.githubusercontent.com/111716161/188853828-13ef1887-625a-42eb-8175-c70c7eff7e1f.png)
+![image](https://user-images.githubusercontent.com/111721629/189258070-bdff0d84-c3eb-422d-83b6-ee5dcdbd9bd2.png)
 
 Và có thể curl với những lệnh thường xuyên sử dụng dưới đây, ví dụ lấy về nội dung của trang web www.google.com.
 
 `curl http://www.google.com`
 
-![image](https://user-images.githubusercontent.com/111716161/188854122-8ef91822-424e-4f0b-a740-170485c182aa.png)
+![image](https://user-images.githubusercontent.com/111721629/189258183-c6b719d5-ebe7-42d2-8bb2-2e8c1849f062.png)
 
 # Đổi tên Network interface trong CentOS 7
 Kiểm tra tên Network interface hiện tại
 
 `ip a`
 
-![image](https://user-images.githubusercontent.com/111716161/188854689-053817a3-cc4a-4869-81b6-ca0a0128dafe.png)
+![image](https://user-images.githubusercontent.com/111721629/189258264-75d0a874-50a3-42ff-bd86-a0d07fafb986.png)
 
 Ta thấy tên hiện tại của Network interface là ens33. Các bước dưới đây sẽ mô tả cách đưa tên Network interface về dạng eth0, eth1, …
 
@@ -109,7 +109,7 @@ Tìm đến dòng `GRUB_CMDLINE_LINUX` và thêm đoạn sau `net.ifnames=0 bios
 GRUB_CMDLINE_LINUX=" crashkernel=auto net.ifnames=0 biosdevname=0 rhgb quiet"
 ```
 
-![image](https://user-images.githubusercontent.com/111716161/188855148-ae12e3b2-e2c3-41dc-86d1-36be65f500b4.png)
+![image](https://user-images.githubusercontent.com/111721629/189259534-75d15e6b-7f8c-4be1-900e-5de45f398f5a.png)
 
 Sinh lại tệp GRUB và ghi đè lên tệp hiện có.
 
@@ -117,7 +117,7 @@ Sinh lại tệp GRUB và ghi đè lên tệp hiện có.
 grub2-mkconfig -o /boot/grub2/grub.cfg
 ```
 
-![image](https://user-images.githubusercontent.com/111716161/188855323-b56f48f2-2813-4d26-9da0-b4415d472b86.png)
+![image](https://user-images.githubusercontent.com/111721629/189259759-c8676c4e-08f1-4b29-932a-3c5c2192a56f.png)
 
 ### 2. Chỉnh sửa file cấu hình mạng
 Chỉnh sửa file cấu hình mạng ban đầu là ens33. Tại mục NAME và DEVICE, ta đổi từ ens33 thành eth0.
@@ -128,13 +128,13 @@ Lệnh sửa tên file cấu hình mạng: ifcfg-ens33 thành ifcfg-eth0:
 mv /etc/sysconfig/network-scripts/ifcfg-ens33 /etc/sysconfig/network-scripts/ifcfg-eth0
 ```
 
-Chỉnh sửa file cấu hình card mạng interface “ifcfg-eth0” và thay đổi giá trị biến “NAME”  và biến ‘DEVICE‘ trong file thành giá trị tên mới tương ứng “eth0“.
+Chỉnh sửa file cấu hình card mạng interface “ifcfg-eth0” và thay đổi giá trị biến “NAME”  và biến ‘DEVICE‘ trong file thành giá trị tên mới tương ứng ““.
 
 ```
 nano /etc/sysconfig/network-scripts/ifcfg-eth0
 ```
 
-![image](https://user-images.githubusercontent.com/111716161/189061565-d17200b5-482c-4b50-8a11-020e2ca82630.png)
+![image](https://user-images.githubusercontent.com/111721629/189260254-565a4a88-79d7-457b-8225-c9c77142f694.png)
 
 ### 3. Disable NetworkManager
 Đảm bảo rằng NetworkManager không hoàn nguyên các thay đổi khi khởi động lại máy hay khởi động lại mạng.
@@ -143,7 +143,7 @@ nano /etc/sysconfig/network-scripts/ifcfg-eth0
 systemctl disable NetworkManager
 ```
 
-![image](https://user-images.githubusercontent.com/111716161/188855697-2b73a6b5-5dc8-4b8b-9781-46634081c31c.png)
+![image](https://user-images.githubusercontent.com/111721629/189260326-0d0771e1-e007-4e66-b788-f2213d869fbf.png)
 
 ### 4. Reboot máy
 Reboot máy để những thay đổi được thực hiện.
@@ -157,10 +157,10 @@ reboot
 ip a
 ```
 
-![image](https://user-images.githubusercontent.com/111716161/189062150-04a55b5e-b118-4777-b04f-bf5c26532766.png)
+![image](https://user-images.githubusercontent.com/111721629/189260839-a12451d1-f568-4b73-a730-d0a673160e1b.png)
 
 Kiểm tra kết nối Internet: `ping 8.8.8.8`
 
-![image](https://user-images.githubusercontent.com/111716161/189062302-b24b81ec-a2b0-4ccc-8a7a-84b46ec87aed.png)
+![image](https://user-images.githubusercontent.com/111721629/189260888-b944a5c2-303e-4129-9ce8-ff7c8485ba41.png)
 
 Tên Network interface đã được đổi thành công từ ens33 sang eth0 và hoạt động bình thường.
