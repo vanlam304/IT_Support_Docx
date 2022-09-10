@@ -5,8 +5,7 @@ Về cơ bản shell script là 1 tập hợp các lệnh được thực thi n�
 ```
 #!/bin/bash
 
-# Author : Không AI
-# Copyright (c) Viblo.asia
+# Author : Không AI vjp
 # Script chạy linh tinh lắm
 HELLO="Xin chào, "
 HELLO=$(printf "%s %s" "$HELLO" "$(whoami)" "!")
@@ -44,7 +43,7 @@ LAM="Trương Văn Lâm"
 Sử dụng
 ```
 LAM="Trương Văn Lâm"
-echo $THAO
+echo $LAM
 ```
 
 **Biến Read-only**
@@ -75,9 +74,9 @@ lam@bla-bla ~ $ echo $a
 - Biến hệ thống: tạo ra và quản lý bởi system, tên là chữ hoa, ví dụ
 
 ```
-thao@bla-bla ~ $ echo $SHELL
+lam@bla-bla ~ $ echo $SHELL
 /bin/bash
-thao@bla-bla ~ $ echo $TERM
+lam@bla-bla ~ $ echo $TERM
 xterm
 ```
 - Biến do người dùng định nghĩa: tạo ra và quản lý bởi người dùng, tên lung tung, thỏa mãn yêu cầu đặt tên của shell.
@@ -90,12 +89,6 @@ NAME[1]="Qadir"
 NAME[2]="Mahnaz"
 NAME[3]="Ayan"
 NAME[4]="Daisy"
-```
-
-Nếu dùng ksh shell thì có thể khai báo:
-
-```
-set -A array_name value1 value2 ... valuen
 ```
 
 Nếu dùng bash shell thì khai báo thế này:
@@ -137,6 +130,7 @@ Kết quả:
 
 ```
 $./test.sh
+
 First Index: Zara
 Second Index: Qadir
 First Method: Zara Qadir Mahnaz Ayan Daisy
