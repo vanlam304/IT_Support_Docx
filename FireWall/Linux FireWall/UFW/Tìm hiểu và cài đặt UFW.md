@@ -151,3 +151,12 @@ sudo ufw deny 35000:35999/udp
 `sudo ufw deny from $Your_IP`
 
 ![image](https://user-images.githubusercontent.com/111721629/194845470-bd7df608-77d3-4c60-90e4-e2393ddc6841.png)
+
+# Gỡ và thanh lọc toàn bộ gói liên quan đến cài đặt UFW
+
+```
+sudo apt-get remove ufw
+sudo apt-get purge ufw
+```
+
+![image](https://user-images.githubusercontent.com/111721629/194977565-4ebaaf31-da30-4851-911f-a2b7f26f7c84.png)
