@@ -89,10 +89,10 @@ Các đối số trong mv tương tự như lệnh cp. Bạn cần nhập mv, t�
 Sử dụng lệnh mkdir để tạo một thư mục mới - nếu bạn nhập mkdir Music, nó sẽ tạo một thư mục có tên là Music.
 
 Ngoài ra còn có các lệnh mkdir bổ sung:
-```
+
 Để tạo một thư mục mới bên trong một thư mục khác, hãy sử dụng lệnh cơ bản của Linux này mkdir Music/Newfile
 Sử dụng tùy chọn p (viết tắt của từ parents) để tạo một thư mục ở giữa hai thư mục hiện có. Ví dụ: mkdir -p Music/2021/Newfile sẽ tạo tệp “2021” mới.
-```
+
 ![image](https://user-images.githubusercontent.com/111721629/188385659-1b143f2e-fbdb-49ca-86e8-9486d22b966d.png)
 
 
