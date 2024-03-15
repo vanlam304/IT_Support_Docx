@@ -11,7 +11,7 @@ Máy chủ(server) là một **máy tính** được kết nối với mạng m�
 ## 2, Các loại máy chủ (server)
 Theo ***phương pháp xây dựng hệ thống máy chủ***, chúng ta phân thành 3 loại:
 
-**- Máy chủ vật lý riêng**(delicate server): là máy chủ chạy trên phần cứng và các thiết bị hỗ trợ riêng biệt gồm : HĐD, CPU, RAM, Card mạng.
+**- Máy chủ vật lý riêng**(delicate server): là máy chủ chạy trên phần cứng và các thiết bị hỗ trợ riêng biệt gồm : Ổ cứng, CPU, RAM, Card mạng.
 <p align="center">
   <img src="https://user-images.githubusercontent.com/111721629/186367116-b4297f00-8ed0-4a8b-aa75-05ec13b637df.PNG" style="width:600px;">
   </p>
