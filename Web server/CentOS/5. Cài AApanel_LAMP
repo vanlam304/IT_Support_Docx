@@ -1,9 +1,0 @@
-# Đóng image AApanel-LAMP qua VMware
-### Bước đầu chọn biến thể linux phù hợp cho việc cài Aapanel_LAMP
-** Almalinux xem như biến thể centOS8. Đang được hỗ trợ cập nhật và hỗ trợ nhiều bởi cam kết của cloudlinux.**
-# Từng bước như sau.
-B1: Cập nhật local package index mới nhất cho Almalinux
-```
-sudo dnf update
-```
-![Image](https://github.com/user-attachments/assets/c370298a-e0c4-4493-b8dc-ce918a75acba)
