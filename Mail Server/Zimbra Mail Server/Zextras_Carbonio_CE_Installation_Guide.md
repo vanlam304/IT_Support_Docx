@@ -10,7 +10,7 @@ Hướng dẫn này sẽ giúp bạn cài đặt Zextras Carbonio CE, một ph�
 2. **Tên miền (Domain)**:
    - Bạn cần sở hữu một tên miền (ví dụ: `hihihi.pro`).
    - Cấu hình DNS cho tên miền:
-     - **A record**: `mail.hihihi.pro` → IP của VPS (ví dụ: `203.113.0.123`).
+     - **A record**: `mail.hihihi.pro` → IP của VPS (ví dụ: `203.113.0.123`). À lưu ý chỗ này cho anh, nếu trỏ trên Cloudflare nhớ tắt proxy nhé.
      - **MX record**: `@` → `mail.hihihi.pro`.
      - **TXT records** (SPF, DKIM, DMARC): Sẽ được thêm sau khi cài đặt.
 3. **Kết nối SSH**:
