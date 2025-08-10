@@ -205,7 +205,7 @@ exit
 Nếu server của bạn dùng UFW (Uncomplicated Firewall), mở các cổng cần thiết:
 
 ```bash
-sudo ufw allow 25,22,6071,80,110,143,443,465,587,993,995,5222,5223,7071,9071/tcp
+sudo ufw allow 25,22,6071,80,110,143,443,465,587,993,995,5222,5223,7071,6071/tcp
 ```
 
 - **Giải thích**: Các cổng này cho phép truy cập email, webmail, và giao diện quản trị.
@@ -313,4 +313,4 @@ exit
 - Định kỳ kiểm tra log (`/opt/zextras/log/`) để phát hiện vấn đề.
 - Nếu cần hỗ trợ, truy cập [diễn đàn Zextras](https://community.zextras.com/).
 
-Chúc bạn thành công với mail server của mình!
+Chúc mấy ní thành công với mail server của mình!
