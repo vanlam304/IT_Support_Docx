@@ -1,4 +1,4 @@
-## **1. Chuẩn bị hệ thống**
+## **1. Chuẩn bị hệ thống( Hãy nhớ trỏ bản ghi mail và MX từ đầu, tắt proxy ở bản ghi mail nhé 🥲)**
 
 ```bash
 # Cập nhật hệ thống
