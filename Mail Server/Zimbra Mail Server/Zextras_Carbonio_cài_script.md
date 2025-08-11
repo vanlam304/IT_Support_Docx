@@ -85,5 +85,5 @@ sudo ufw reload
 
 ## **7. Cấu hình DNS, SSL, DKIM... cho domain hihihi.pro ở bước 11 của hướng dẫn cài thủ công**
 
-
+https://github.com/vanlam304/IT_Support_Docx/blob/main/Mail%20Server/Zimbra%20Mail%20Server/Zextras_Carbonio_c%C3%A0i_%20th%E1%BB%A7_c%C3%B4ng.md
 
