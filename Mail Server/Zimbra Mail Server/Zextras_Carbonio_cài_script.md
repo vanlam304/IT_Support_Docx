@@ -177,7 +177,40 @@ Tìm và chỉnh:
 ```xml
 <key name="zimbraAdminConsoleHostName" value="mail.hihihi.pro"/>
 ```
+Nếu không có hãy làm theo trrong ngoặc nhé
+Đây{
 
+**1. Dùng lệnh (khuyến nghị)**
+
+```bash
+su - zextras
+zmlocalconfig -e zimbraAdminConsoleHostName=mail.hihihi.pro
+```
+
+**2. Sửa file cấu hình thủ công**
+Mở file:
+
+```bash
+nano /opt/zextras/conf/localconfig.xml
+```
+
+Thêm vào trước `</localconfig>`:
+
+```xml
+<key name="zimbraAdminConsoleHostName" value="mail.hihihi.pro"/>
+```
+
+---
+
+**3. Khởi động lại dịch vụ**
+
+```bash
+su - zextras -c 'zmcontrol restart'
+```
+
+---
+
+}
 Lưu lại rồi restart:
 
 ```bash
