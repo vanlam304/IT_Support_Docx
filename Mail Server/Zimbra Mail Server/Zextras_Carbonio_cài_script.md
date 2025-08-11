@@ -77,7 +77,7 @@ Khi hỏi:
 ## **6. Mở firewall**
 
 ```bash
-sudo ufw allow 25,80,443,465,587,993,995/tcp
+sudo ufw allow 25,22,6071,80,110,143,443,465,587,993,995,5222,5223,7071,9071/tcp
 sudo ufw reload
 ```
 
